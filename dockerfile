@@ -1,5 +1,5 @@
 
-FROM postgres:12-alpine
+FROM postgres:latest
 
 ENV POSTGRES_USER=wonGames
 ENV POSTGRES_PASSWORD=wonGames123
