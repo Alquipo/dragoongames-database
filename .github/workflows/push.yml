@@ -27,7 +27,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: alquipo-wongames/database:latest
+          tags: alquipo/database-wongame:latest
       -
         name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
